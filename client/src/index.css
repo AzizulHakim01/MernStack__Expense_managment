@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+.content{
+  min-height:80vh;
+}
+
+.navbar{
+  background-color: #000000 !important;
+}
+
+.nav-link{
+  color:#fff !important;
+}
+
+.register-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 90vh;
+ flex-direction: column;
+ gap:20px;
+}
+
+.form__input{
+  width:100%;
+  font-size: 1.3em;
+  padding-left: 30px;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+.form__container{
+  border-radius:30px;
+  border: 8px solid #fff;
+  width:70%;
+  text-align: center;
+  padding:4%;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0, 0.35), inset -5px -5px 15px rgba(255, 255, 255, 0.1), inset 5px 5px 15px rgb(0, 0, 0, 0.35)  ;
+}
+
+.form__container h1{
+  font-size: 2em;
+  font-family: 'Bruno Ace SC', cursive;
+  font-weight: 900;
+}
+.form__button{
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0, 0.35);
+  padding:10px;
+  width:120px;
+  height:40px;
+  margin-top: 20px;
+  border:none;
+  outline: none;
+  border-radius: 10px;
+  font-weight:600;
+  font-family: 'Bruno Ace SC', cursive;
+}
+.form__button:hover{
+  box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.1), inset 5px 5px 15px rgb(0, 0, 0, 0.35);
+}
+
+/* Transecion Page Style */
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:15px 20px;
+  box-shadow: 0 0 15px gray;
+}
+
+.spinner{
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+/* ant icons */
+.anticon svg{
+  font-size: 25px;
+  cursor:pointer;
+  margin-right:15px;
+}
+.active__icon{
+  color:#0B5ED7
+}
+.inactive__icon{
+  color:gray
+}
